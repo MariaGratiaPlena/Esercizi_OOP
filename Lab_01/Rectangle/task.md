@@ -1,5 +1,4 @@
 # La classe `Rectangle`
-
 Scrivere un programma che istanzi un oggetto `Rectangle` e lo stampi.
 
 Modificare il programma in modo che sposti il rettangolo stampato di `movX` e `movY` ed aggiunga 3 rettangoli in

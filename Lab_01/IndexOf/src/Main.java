@@ -4,7 +4,9 @@ public class Main {
 
         for (String word : words) {
             int position = -1;
-            /* TODO */
+            if (!word.isEmpty()){
+                position = word.indexOf(word.charAt(0),1);
+            }
             System.out.println(position);
         }
     }
