@@ -9,19 +9,23 @@ public class Locker {
     }
 
     public void unlock(String code) {
-        /* TODO */
+      if (this.code.equals(code)){
+          isOpen = true;
+      }
     }
 
     public boolean isOpen() {
-        /* TODO */
+        return isOpen;
     }
 
     public void lock() {
-        /* TODO */
+        isOpen = false;
     }
 
     public void newComb(String newCode) {
-        /* TODO */
+        if (isOpen){
+            code = newCode;
+        }
     }
 
 }
