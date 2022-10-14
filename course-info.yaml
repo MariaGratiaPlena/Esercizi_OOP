@@ -14,6 +14,6 @@ programming_language_version: 17
 content:
 - Lab_01
 - Lab_02
+- Lab_03
 mode: Study
-vendor:
-  name: Dario Di Nucci
+feedback_link: https://plugins.jetbrains.com/plugin/20137-laboratorio-di-object-oriented-programming-in-java/reviews

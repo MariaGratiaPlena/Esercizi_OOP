@@ -5,7 +5,6 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
-        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
@@ -28,6 +27,13 @@
             <option value="$PROJECT_DIR$/Lab_02/SavingAccount" />
             <option value="$PROJECT_DIR$/Lab_02/Student" />
             <option value="$PROJECT_DIR$/Lab_02/VendingMachine" />
+            <option value="$PROJECT_DIR$/Lab_03/Bank" />
+            <option value="$PROJECT_DIR$/Lab_03/CarSeller" />
+            <option value="$PROJECT_DIR$/Lab_03/Dice" />
+            <option value="$PROJECT_DIR$/Lab_03/MagicSquare" />
+            <option value="$PROJECT_DIR$/Lab_03/PhoneCompany" />
+            <option value="$PROJECT_DIR$/Lab_03/Purse" />
+            <option value="$PROJECT_DIR$/Lab_03/Tic-tac-toe" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>
