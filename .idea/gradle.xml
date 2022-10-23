@@ -5,20 +5,12 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Lab_01/CharAt" />
-            <option value="$PROJECT_DIR$/Lab_01/FirstAndLastInverted" />
-            <option value="$PROJECT_DIR$/Lab_01/IndexOf" />
-            <option value="$PROJECT_DIR$/Lab_01/InvertHalfString" />
-            <option value="$PROJECT_DIR$/Lab_01/PrintMiddleChar" />
-            <option value="$PROJECT_DIR$/Lab_01/Rectangle" />
-            <option value="$PROJECT_DIR$/Lab_01/StringBuilder" />
-            <option value="$PROJECT_DIR$/Lab_01/StringClass" />
-            <option value="$PROJECT_DIR$/Lab_01/UpperCaseInitial" />
             <option value="$PROJECT_DIR$/Lab_02/Car" />
             <option value="$PROJECT_DIR$/Lab_02/FirstAndLastWord" />
             <option value="$PROJECT_DIR$/Lab_02/Infected" />
@@ -34,6 +26,25 @@
             <option value="$PROJECT_DIR$/Lab_03/PhoneCompany" />
             <option value="$PROJECT_DIR$/Lab_03/Purse" />
             <option value="$PROJECT_DIR$/Lab_03/Tic-tac-toe" />
+            <option value="$PROJECT_DIR$/Lab_04/Railways" />
+            <option value="$PROJECT_DIR$/Lab_04/SMS" />
+            <option value="$PROJECT_DIR$/Lab_05/Country" />
+            <option value="$PROJECT_DIR$/Lab_05/Quiz" />
+            <option value="$PROJECT_DIR$/Lab_05/Quiz2" />
+            <option value="$PROJECT_DIR$/Lab_05/SMS" />
+            <option value="$PROJECT_DIR$/Lab_05/Student" />
+            <option value="$PROJECT_DIR$/old_Lab_01/CharAt" />
+            <option value="$PROJECT_DIR$/old_Lab_01/FirstAndLastInverted" />
+            <option value="$PROJECT_DIR$/old_Lab_01/IndexOf" />
+            <option value="$PROJECT_DIR$/old_Lab_01/InitialsConcatenationFromTerminal" />
+            <option value="$PROJECT_DIR$/old_Lab_01/InvertHalfString" />
+            <option value="$PROJECT_DIR$/old_Lab_01/PrintMiddleChar" />
+            <option value="$PROJECT_DIR$/old_Lab_01/PrintMiddleCharFromTerminal" />
+            <option value="$PROJECT_DIR$/old_Lab_01/Rectangle" />
+            <option value="$PROJECT_DIR$/old_Lab_01/StringBuilder" />
+            <option value="$PROJECT_DIR$/old_Lab_01/StringClass" />
+            <option value="$PROJECT_DIR$/old_Lab_01/Theory" />
+            <option value="$PROJECT_DIR$/old_Lab_01/UpperCaseInitial" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

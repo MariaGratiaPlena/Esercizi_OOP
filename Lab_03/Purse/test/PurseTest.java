@@ -3,43 +3,43 @@ import org.junit.Test;
 
 public class PurseTest {
 
-  @Test
-  public void findTest() {
+    @Test
+    public void findTest() {
     /* TODO */
-  }
+    }
 
-  @Test
-  public void countTest() {
+    @Test
+    public void countTest() {
     /* TODO */
-  }
+    }
 
-  @Test
-  public void minMaxTest() {
+    @Test
+    public void minMaxTest() {
     /* TODO */
-  }
+    }
 
-  @Test
-  public void getTotalTest() {
+    @Test
+    public void getTotalTest() {
     /* TODO */
-  }
+    }
 
-  @Test
-  public void addRemoveTest() {
+    @Test
+    public void addRemoveTest() {
     /* TODO */
-  }
+    }
 
-  @Test
-  public void hasCoinTest() {
+    @Test
+    public void hasCoinTest() {
     /* TODO */
-  }
+    }
 
-  @Test
-  public void toStringTest() {
+    @Test
+    public void toStringTest() {
     /* TODO */
-  }
+    }
 
-  @Test
-  public void equalsTest() {
+    @Test
+    public void equalsTest() {
     /* TODO */
-  }
+    }
 }
