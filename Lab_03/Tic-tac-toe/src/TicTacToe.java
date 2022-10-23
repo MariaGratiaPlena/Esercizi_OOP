@@ -32,7 +32,55 @@ public class TicTacToe {
     }
 
     public String getWinner() {
-        /* TODO */
+        int p1combo = 0;
+        int p2combo = 0;
+        /*checking rows...*/
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLUMNS; j++) {
+                if(board[i][j].equals(player1)) p1combo++;
+                if(board[i][j].equals(player2)) p2combo++;
+            }
+            if (p1combo == 3) return player1;
+            if (p2combo == 3) return player2;
+            p1combo = 0;
+            p2combo = 0;
+        }
+        /*checking columns...*/
+        for (int i = 0; i < COLUMNS; i++) {
+            for (int j = 0; j < ROWS; j++) {
+                if(board[j][i].equals(player1)) p1combo++;
+                if(board[j][i].equals(player2)) p2combo++;
+            }
+            if (p1combo == 3) return player1;
+            if (p2combo == 3) return player2;
+            p1combo = 0;
+            p2combo = 0;
+        }
+
+        int min = Integer.min(ROWS,COLUMNS);
+        /*checking first diagonal...*/
+        for (int i = 0; i < min; i++) {
+                if(board[i][i].equals(player1)) p1combo++;
+                if(board[i][i].equals(player2)) p2combo++;
+        }
+        if (p1combo == 3) return player1;
+        if (p2combo == 3) return player2;
+
+        p1combo = 0;
+        p2combo = 0;
+        int MIN = Integer.min(ROWS,COLUMNS);
+        /*checking second diagonal...*/
+        for (int i = ROWS; i > 0; i--) {
+            for (int j = 0; j < COLUMNS; j++) {
+                if(board[i][j].equals(player1)) p1combo++;
+                if(board[i][j].equals(player2)) p2combo++;
+            }
+            if (p1combo == 3) return player1;
+            if (p2combo == 3) return player2;
+            p1combo = 0;
+            p2combo = 0;
+        }
+        return "Nessun vincitore";
     }
 
     public static void main(String[] args) {
@@ -63,7 +111,10 @@ public class TicTacToe {
             if (row >= ROWS || column >= COLUMNS) {
                 System.out.println("Combinazione non valida");
             } else {
-                /* TODO */
+                System.out.println(game);
+                if(player == player1) player = player2;
+                if(player == player2) player = player1;
+                System.out.println("Il vincitore è: "+game.getWinner());
             }
 
         } while (row < ROWS && column < COLUMNS);

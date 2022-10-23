@@ -5,22 +5,46 @@ public class TicTacToeTest {
 
     @Test
     public void horizontalWinTest() {
-        /* TODO */
+        TicTacToe game = new TicTacToe();
+        game.set(0, 0, TicTacToe.player1);
+        game.set(0, 1, TicTacToe.player1);
+        game.set(0,2, TicTacToe.player1);
+        game.set(1,0, TicTacToe.player2);
+        game.set(2,0, TicTacToe.player2);
+        Assert.assertEquals("x", game.getWinner());
     }
 
     @Test
     public void verticalWinTest() {
-        /* TODO */
+        TicTacToe game = new TicTacToe();
+        game.set(0, 0, TicTacToe.player2);
+        game.set(0, 1, TicTacToe.player1);
+        game.set(0,2, TicTacToe.player1);
+        game.set(1,0, TicTacToe.player2);
+        game.set(2,0, TicTacToe.player2);
+        Assert.assertEquals("o", game.getWinner());
     }
 
     @Test
     public void firstDiagonalWinTest() {
-        /* TODO */
+        TicTacToe game = new TicTacToe();
+        game.set(0, 0, TicTacToe.player2);
+        game.set(1, 1, TicTacToe.player2);
+        game.set(0,2, TicTacToe.player1);
+        game.set(1,0, TicTacToe.player1);
+        game.set(2,2, TicTacToe.player2);
+        Assert.assertEquals("o", game.getWinner());
     }
 
     @Test
     public void secondDiagonalWinTest() {
-        /* TODO */
+        TicTacToe game = new TicTacToe();
+        game.set(0, 0, TicTacToe.player2);
+        game.set(1, 1, TicTacToe.player2);
+        game.set(0,2, TicTacToe.player1);
+        game.set(1,0, TicTacToe.player1);
+        game.set(2,2, TicTacToe.player2);
+        Assert.assertEquals("o", game.getWinner());
     }
 
     @Test
