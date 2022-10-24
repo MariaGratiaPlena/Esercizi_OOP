@@ -10,7 +10,8 @@ public class Bank {
     }
 
     public void addAccount(double initialBalance, String customerName) {
-        /* TODO */
+        BankAccount newAccount = new BankAccount(initialBalance, customerName);
+        this.accounts.add(newAccount);
     }
 
     public BankAccount find(int accountNumber) {
@@ -22,18 +23,19 @@ public class Bank {
     }
 
     public void deposit(int accountNumber, double amount) {
-        /* TODO */
+        this.accounts.get(accountNumber).deposit(amount);
     }
 
     public void withdraw(int accountNumber, double amount) {
-        /* TODO */
+        this.accounts.get(accountNumber).withdraw(amount);
     }
 
     public double getBalance(int accountNumber) {
-        /* TODO */
+        return this.accounts.get(accountNumber).getBalance();
     }
 
     public void transfer(int fromAccountNumber, int toAccountNumber, double amount) {
-        /* TODO */
+        this.accounts.get(fromAccountNumber).withdraw(amount);
+        this.accounts.get(toAccountNumber).deposit(amount);
     }
 }
