@@ -11,6 +11,24 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/CharAt" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/FirstAndLastInverted" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/IndexOf" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/InvertHalfString" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/PrintMiddleChar" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/Rectangle" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/StringBuilder" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/StringClass" />
+            <option value="$PROJECT_DIR$/Lab_01 (1)/UpperCaseInitial" />
+            <option value="$PROJECT_DIR$/Lab_01/CharAt" />
+            <option value="$PROJECT_DIR$/Lab_01/FirstAndLastInverted" />
+            <option value="$PROJECT_DIR$/Lab_01/IndexOf" />
+            <option value="$PROJECT_DIR$/Lab_01/InvertHalfString" />
+            <option value="$PROJECT_DIR$/Lab_01/PrintMiddleChar" />
+            <option value="$PROJECT_DIR$/Lab_01/Rectangle" />
+            <option value="$PROJECT_DIR$/Lab_01/StringBuilder" />
+            <option value="$PROJECT_DIR$/Lab_01/StringClass" />
+            <option value="$PROJECT_DIR$/Lab_01/UpperCaseInitial" />
             <option value="$PROJECT_DIR$/Lab_02/Car" />
             <option value="$PROJECT_DIR$/Lab_02/FirstAndLastWord" />
             <option value="$PROJECT_DIR$/Lab_02/Infected" />
@@ -21,10 +39,14 @@
             <option value="$PROJECT_DIR$/Lab_02/VendingMachine" />
             <option value="$PROJECT_DIR$/Lab_03/Bank" />
             <option value="$PROJECT_DIR$/Lab_03/CarSeller" />
+            <option value="$PROJECT_DIR$/Lab_03/CarSeller (1)" />
             <option value="$PROJECT_DIR$/Lab_03/Dice" />
+            <option value="$PROJECT_DIR$/Lab_03/Dice (1)" />
             <option value="$PROJECT_DIR$/Lab_03/MagicSquare" />
+            <option value="$PROJECT_DIR$/Lab_03/MagicSquare (1)" />
             <option value="$PROJECT_DIR$/Lab_03/PhoneCompany" />
             <option value="$PROJECT_DIR$/Lab_03/Purse" />
+            <option value="$PROJECT_DIR$/Lab_03/Purse (1)" />
             <option value="$PROJECT_DIR$/Lab_03/Tic-tac-toe" />
             <option value="$PROJECT_DIR$/Lab_04/Railways" />
             <option value="$PROJECT_DIR$/Lab_04/SMS" />
@@ -45,6 +67,13 @@
             <option value="$PROJECT_DIR$/old_Lab_01/StringClass" />
             <option value="$PROJECT_DIR$/old_Lab_01/Theory" />
             <option value="$PROJECT_DIR$/old_Lab_01/UpperCaseInitial" />
+            <option value="$PROJECT_DIR$/old_Lab_04/Railways" />
+            <option value="$PROJECT_DIR$/old_Lab_04/SMS" />
+            <option value="$PROJECT_DIR$/old_Lab_05/Country" />
+            <option value="$PROJECT_DIR$/old_Lab_05/Quiz" />
+            <option value="$PROJECT_DIR$/old_Lab_05/Quiz2" />
+            <option value="$PROJECT_DIR$/old_Lab_05/SMS" />
+            <option value="$PROJECT_DIR$/old_Lab_05/Student" />
             <option value="$PROJECT_DIR$/util" />
           </set>
         </option>

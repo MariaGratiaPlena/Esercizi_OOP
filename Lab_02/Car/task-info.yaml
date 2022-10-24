@@ -3,8 +3,8 @@ files:
 - name: src/Car.java
   visible: true
   placeholders:
-  - offset: 89
-    length: 106
+  - offset: 90
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -13,18 +13,18 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: QKNk7V7gs1mLUn8VqqV1L2qDvioCOoU3HCwTxxqsngA752iayu5d9KYSWU6aiExuQ9EVHoUCi++nDpLAu12bJD0j8LAzCJdG/gc350fZ7jfB3TMN/hyXTX1J1wKzrSbzfDbfgo9JtJ1u83MGiTYJlKLGRUrhyDlBEE7R/B8nCQQ=
-  - offset: 234
-    length: 16
+  - offset: 139
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 139
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 3wfLGrQDKG4msmy8JWPERw==
-  - offset: 303
-    length: 16
+  - offset: 202
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
@@ -33,14 +33,14 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: jxd2KcXWucZThVll5JSNOFSHu92kVljNzpcucqP5zdQ=
-  - offset: 370
-    length: 38
+  - offset: 263
+    length: 10
     placeholder_text: /* TODO */
     initial_state:
       length: 10
       offset: 263
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: CDfTTFkRmeqXM6AmHeTS93B33Fm0JuDXtkqqTF4pTcxAkWwERcuPeKz/Ggly1Mg7Mp7UHX8q+Sh5rltQO9vOUq47P0TylWSUcptYg7CnTyc=
   encrypted_text: ubd06iXMrzX7Eg3IUgR80nxFz7uFq2JVk44YnZWan7IMLJeeXMnrZx1YEif5nfRFYgZSC1uLlr+iHkHsK0W2DZRtNBo0t3K7cTofBFfre3Lzjj4Ix6FnlgsUYhL5QVpuLNkNvJR6/jPBHyMe69oWLpDYbuIJGwXFofx15/aMStet+hb08SlVYO+cYeIVT6K47sx/udO1R0GcL3zYUf5TNqDtsIcWq4IxtsFLhDWr8iBPoDkDDpxOA3FuFmFkuJDz7P/kF0Fsi7B48MBbHJJrm/+VWtNXc6HIVBfVauw7aavul6oryzzxvtJBfV6xXxiwStMGp4HAMVIdxxn6h9Wzr2Jvdl7akxRnz/hjn2vZFOVQ4So7QhRn+OWGKsN9wh3M
@@ -48,7 +48,7 @@ files:
 - name: test/CarTest.java
   visible: true
   placeholders:
-  - offset: 303
+  - offset: 76
     length: 10
     placeholder_text: /* TODO */
     initial_state:
@@ -61,7 +61,4 @@ files:
   encrypted_text: ITs8Nv8EH6QWJG5nufD7nL+5+4bhYoXDvmVthWtIgQ65QGrosPwl8pWa8Roz0DaOp1blHdgYyDiosEIRht0xNZyvVWvvpxhK4BYERtVZD1M77y9aopvXS3Fccnddb9cY
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: Fri, 14 Oct 2022 07:13:39 UTC
 record: -1

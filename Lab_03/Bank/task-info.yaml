@@ -3,52 +3,52 @@ files:
 - name: src/Bank.java
   visible: true
   placeholders:
-  - offset: 271
+  - offset: 615
     length: 110
     placeholder_text: /* TODO */
     initial_state:
-      length: 10
+      length: 110
       offset: 271
     initialized_from_dependency: false
     selected: true
     status: Solved
     encrypted_possible_answer: +A4UZhoL19kZjQU/9eOcNTKbwE6kzwUCmJdXxndBCvNPvX8glnZEtlCcRUNaDneh6SLBPSjMizHm7EPRKmLG68L/iq0gytf4aO9GLa2rNosz1Qj/CrCD+KLV5V70UW3z4rRyaVKXzHnh0O/d5hgsAg==
-  - offset: 674
+  - offset: 1018
     length: 49
     placeholder_text: /* TODO */
     initial_state:
-      length: 10
-      offset: 574
+      length: 49
+      offset: 674
     initialized_from_dependency: false
     selected: true
     status: Solved
     encrypted_possible_answer: quW/7JrvgqCFWUSm3nrgPyISU1DZieTqjLDkKNnNMcFwk1hjru4ycxLvhbSTd2R2Pc0oBb/8Wcm3mhOi2/bWsQ6ImpCAqrHlknWFdTiCmj3iIiHtN8XN394+mFNTzxgx
-  - offset: 800
+  - offset: 1144
     length: 50
     placeholder_text: /* TODO */
     initial_state:
-      length: 10
-      offset: 661
+      length: 50
+      offset: 800
     initialized_from_dependency: false
     selected: true
     status: Solved
     encrypted_possible_answer: quW/7JrvgqCFWUSm3nrgPyISU1DZieTqjLDkKNnNMcFwk1hjru4ycxLvhbSTd2R2Pc0oBb/8Wcm3mhOi2/bWscukUW/3w4QKFt45jFCVefa1V4WX12/wNJBuZNMKS26f
-  - offset: 916
+  - offset: 1260
     length: 53
     placeholder_text: /* TODO */
     initial_state:
-      length: 10
-      offset: 737
+      length: 53
+      offset: 916
     initialized_from_dependency: false
     selected: true
     status: Solved
     encrypted_possible_answer: quW/7JrvgqCFWUSm3nrgPyISU1DZieTqjLDkKNnNMcFwk1hjru4ycxLvhbSTd2R2EX+LZfbrLzSknY47akxUJvaqoQMGAP2x0dAebEwey2s6yVnkGWN6W19INi/TnMa4
-  - offset: 1071
+  - offset: 1415
     length: 114
     placeholder_text: /* TODO */
     initial_state:
-      length: 10
-      offset: 849
+      length: 114
+      offset: 1071
     initialized_from_dependency: false
     selected: true
     status: Solved
@@ -97,5 +97,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Mon, 24 Oct 2022 08:24:00 UTC
+  time: Mon, 24 Oct 2022 08:32:36 UTC
 record: -1

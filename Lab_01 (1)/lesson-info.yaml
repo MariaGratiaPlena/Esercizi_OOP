@@ -1,0 +1,11 @@
+custom_name: Lab_01
+content:
+- StringClass
+- PrintMiddleChar
+- FirstAndLastInverted
+- InvertHalfString
+- CharAt
+- IndexOf
+- UpperCaseInitial
+- StringBuilder
+- Rectangle
