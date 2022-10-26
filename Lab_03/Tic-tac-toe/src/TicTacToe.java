@@ -70,7 +70,7 @@ public class TicTacToe {
         p2combo = 0;
         int MIN = Integer.min(ROWS,COLUMNS);
         /*checking second diagonal...*/
-        for (int i = ROWS; i > 0; i--) {
+        for (int i = ROWS-1; i > 0; i--) {
             for (int j = 0; j < COLUMNS; j++) {
                 if(board[i][j].equals(player1)) p1combo++;
                 if(board[i][j].equals(player2)) p2combo++;

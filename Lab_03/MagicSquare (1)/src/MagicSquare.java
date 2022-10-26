@@ -32,7 +32,7 @@ public class MagicSquare {
     }
 
     public void add(int x) {
-        /* TODO */
+        if(!isFull())
     }
 
     public boolean isMagic() {
